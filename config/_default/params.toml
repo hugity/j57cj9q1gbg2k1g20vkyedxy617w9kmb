@@ -1,116 +1,93 @@
-{
-  "doks": {
-    "alert": false,
-    "alertDismissable": true,
-    "backgroundDots": true,
-    "breadcrumbTrail": false,
-    "colorMode": "auto",
-    "colorModeToggler": true,
-    "containerBreakpoint": "lg",
-    "headerBar": false,
-    "headlineHash": true,
-    "navBarButton": false,
-    "navBarButtonText": "Get started",
-    "navBarButtonUrl": "/docs/prologue/introduction/",
-    "navbarSticky": true,
-    "scrollSpy": true,
-    "sectionFooter": false,
-    "sectionNav": [
-      "docs"
-    ],
-    "toTopButton": false,
-    "bootstrapJavascript": false,
-    "docsRepo": "https://github.com/h-enk/doks",
-    "docsRepoBranch": "main",
-    "docsRepoSubPath": "",
-    "docsVersion": "1.0",
-    "docsVersioning": false,
-    "editPage": false,
-    "imageList": true,
-    "imageSingle": true,
-    "krokiURL": "https://kroki.io",
-    "lastMod": false,
-    "multilingualMode": false,
-    "relatedPosts": false,
-    "repoHost": "GitHub",
-    "showMissingLanguages": true,
-    "flexSearch": true,
-    "indexSummary": false,
-    "searchExclKinds": [],
-    "searchExclTypes": [],
-    "searchLimit": 99,
-    "showDate": false,
-    "showSearch": [],
-    "showSummary": true
-  },
-  "inline_svg": {
-    "iconSetDir": "tabler-icons"
-  },
-  "render_hooks": {
-    "image": {
-      "errorLevel": "ignore"
-    },
-    "link": {
-      "errorLevel": "ignore",
-      "highlightBroken": false
-    }
-  },
-  "thulite_images": {
-    "defaults": {
-      "decoding": "async",
-      "fetchpriority": "auto",
-      "loading": "lazy",
-      "lqip": "16x webp q20",
-      "sizes": "auto",
-      "widths": [
-        480,
-        576,
-        768,
-        1025,
-        1200,
-        1440
-      ],
-      "process": ""
-    }
-  },
-  "images": [
-    "cover.png"
-  ],
-  "description": "Congrats on setting up a new Doks project!",
-  "mainSections": [
-    "docs",
-    null
-  ],
-  "social": {
-    "twitter": "getdoks"
-  },
-  "seo": {
-    "favicons": {
-      "icon": "favicon.png",
-      "maskIcon": "mask-icon.svg",
-      "maskIconColor": "white",
-      "svgIcon": "favicon.svg",
-      "sizes": []
-    },
-    "schemas": {
-      "article": [],
-      "blogPosting": [
-        "blog"
-      ],
-      "images": [
-        "cover.png"
-      ],
-      "logo": "favicon-512x512.png",
-      "name": "Thulite",
-      "newsArticle": [],
-      "product": [],
-      "sameAs": [],
-      "type": "Organization"
-    },
-    "title": {
-      "separator": " | ",
-      "suffix": ""
-    }
-  },
-  "title": "My Docs"
-}
+images = [ "cover.png" ]
+description = "Congrats on setting up a new Doks project!"
+mainSections = [ "docs", "example title" ]
+title = "My Docs"
+
+[doks]
+alert = false
+alertDismissable = true
+backgroundDots = true
+breadcrumbTrail = false
+colorMode = "auto"
+colorModeToggler = true
+containerBreakpoint = "lg"
+headerBar = false
+headlineHash = true
+navBarButton = false
+navBarButtonText = "Get started"
+navBarButtonUrl = "/docs/prologue/introduction/"
+navbarSticky = true
+scrollSpy = true
+sectionFooter = false
+sectionNav = [ "docs" ]
+toTopButton = false
+bootstrapJavascript = false
+docsRepo = "https://github.com/h-enk/doks"
+docsRepoBranch = "main"
+docsRepoSubPath = ""
+docsVersion = "1.0"
+docsVersioning = false
+editPage = false
+imageList = true
+imageSingle = true
+krokiURL = "https://kroki.io"
+lastMod = false
+multilingualMode = false
+relatedPosts = false
+repoHost = "GitHub"
+showMissingLanguages = true
+flexSearch = true
+indexSummary = false
+searchExclKinds = []
+searchExclTypes = []
+searchLimit = 99
+showDate = false
+showSearch = []
+showSummary = true
+
+[inline_svg]
+iconSetDir = "tabler-icons"
+
+[render_hooks]
+[render_hooks.image]
+errorLevel = "ignore"
+
+[render_hooks.link]
+errorLevel = "ignore"
+highlightBroken = false
+
+[thulite_images]
+[thulite_images.defaults]
+decoding = "async"
+fetchpriority = "auto"
+loading = "lazy"
+lqip = "16x webp q20"
+sizes = "auto"
+widths = [ 480, 576, 768, 1025, 1200, 1440 ]
+process = ""
+
+[social]
+twitter = "getdoks"
+
+[seo]
+[seo.favicons]
+icon = "favicon.png"
+maskIcon = "mask-icon.svg"
+maskIconColor = "white"
+svgIcon = "favicon.svg"
+sizes = []
+
+[seo.schemas]
+article = []
+blogPosting = [ "blog" ]
+images = [ "cover.png" ]
+logo = "favicon-512x512.png"
+name = "Thulite"
+newsArticle = []
+product = []
+sameAs = []
+type = "Organization"
+
+[seo.title]
+separator = " | "
+suffix = ""
