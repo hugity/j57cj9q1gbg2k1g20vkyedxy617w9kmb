@@ -19,7 +19,7 @@ seo:
 ---
 ![ESPANOL\_POST\_ELCHE.webp](https://raw.githubusercontent.com/hugity/j57cj9q1gbg2k1g20vkyedxy617w9kmb/refs/heads/main/static/images/ESPANOL_POST_ELCHE-1764341437424-8p642x.webp)
 
-- [ ] Crtaci za Dunju drugi deo
+- [x] Crtaci za Dunju drugi deo
 - [ ] Garfild (2004, HR)
 - [ ] Pepeljuga (Disney, 1950, HR, SR)
 - [ ] Betmen protiv Drakule / Batman vs Dracula (2005, HR)
